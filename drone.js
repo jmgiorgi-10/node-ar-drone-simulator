@@ -1,7 +1,7 @@
 var dgram     = require("dgram")
   , msg_count = 0
   , fs        = require('fs') 
-  , pnd       = require('./node_modules/ar-drone/lib/navdata/parseNavdata')
+  , pnd       = require('node_modules/ar-drone/lib/navdata/parseNavdata')
 
 // Get message from simulator
 
